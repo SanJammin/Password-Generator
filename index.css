@@ -1,0 +1,65 @@
+* {
+    font-family: "Inter", serif;
+    background-color: #1F2937;
+    max-width: 550px;
+    max-height: 550px;
+}
+
+#hero {
+    max-width: 380px;
+    padding: 30px;
+}
+
+h1 {
+    font-family: "Karla", serif;
+    font-weight: bolder;
+    color: #4ADf86;
+    margin: 0;
+    font-size: 40px;
+    letter-spacing: -1.5px;
+    line-height: 40px;
+}
+
+span {
+    color: white;
+}
+
+p {
+    margin: 0;
+    color: #D5D4D8;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+#generate-btn {
+    margin-top: 51px;
+    color: white;
+    background-color: #10B981;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 17px 9px 15px;
+}
+
+#divider {
+    border: 1px solid #2F3E53;
+    width: 446px;
+    margin-left: 30px;
+}
+
+#footer {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    max-width: 446px;
+    padding-top: 35px;
+    padding-bottom: 115px;
+}
+
+.password-holder {
+    background-color: #273549;
+    width: 211px;
+    height: 39px;
+    border-radius: 6px;
+    color: #55F991;
+}

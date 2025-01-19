@@ -57,9 +57,14 @@ p {
 }
 
 .password-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #273549;
     width: 211px;
     height: 39px;
     border-radius: 6px;
     color: #55F991;
+    font-size: 16px;
+    font-weight: 300;
 }

@@ -32,6 +32,14 @@ p {
     line-height: 28px;
 }
 
+#generate-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
 #generate-btn {
     margin-top: 51px;
     color: white;
@@ -39,6 +47,29 @@ p {
     border: none;
     border-radius: 6px;
     padding: 9px 17px 9px 15px;
+}
+
+#password-length-div {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#length-p {
+    color: white;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+input {
+    text-align: center;
+    max-height: 20px;
+    max-width: 40px;
+    font-size: 15px;
+    color: white;
+    background-color: #273549;
+    border: none;
+    border-radius: 6px;
 }
 
 #divider {

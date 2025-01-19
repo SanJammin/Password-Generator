@@ -13,7 +13,13 @@
     <div id="hero">
         <h1><span>Generate a</span><br>random password</h1>
         <p>Never use an insecure password again.</p>
-        <button id="generate-btn" onclick="generatePassword()">Generate passwords</button>
+        <div id="generate-div">
+            <button id="generate-btn" onclick="generatePassword()">Generate passwords</button>
+            <div id="password-length-div">
+                <p id="length-p">Choose password length:</p>
+                <input type="number" value="15" id="password-length">
+            </div>
+        </div>
     </div>
     <div id="divider"></div>
     <div id="footer">

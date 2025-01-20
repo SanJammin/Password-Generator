@@ -1,4 +1,4 @@
-// Create ability to set password length
+
 // Add "copy-on-click"
 // Toggle symbols and numbers, on/off
 // Create a light mode/dark mode function
@@ -13,15 +13,24 @@ let leftPassword = document.getElementById("left-password");
 let rightPassword = document.getElementById("right-password");
 
 function generatePassword() {
+    let passwordLength = document.getElementById("password-length").value;
+    let loopNumber = parseInt(passwordLength, 10);
+
+    if (isNaN(loopNumber) || loopNumber <= 0) {
+        leftPassword.textContent = "Invalid Input."
+        rightPassword.textContent = "Enter a positive number."
+        return;
+    }
+
     leftPassword.textContent = "";
     rightPassword.textContent = "";
-    
-    for (let i = 0; i < 16; i++) {
+
+    for (let i = 0; i < loopNumber; i++) {
         let passwordCharacter = Math.floor(Math.random() * characters.length);
         leftPassword.textContent += characters[passwordCharacter];
     }
 
-    for (let i = 0; i < 16; i++) {
+    for (let i = 0; i < loopNumber; i++) {
         let passwordCharacter = Math.floor(Math.random() * characters.length);
         rightPassword.textContent += characters[passwordCharacter];
     }

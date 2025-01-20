@@ -35,3 +35,11 @@ function generatePassword() {
         rightPassword.textContent += characters[passwordCharacter];
     }
 }
+
+function copyTextLeft() {
+    
+}
+
+function copyTextRight() {
+
+}

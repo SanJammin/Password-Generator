@@ -92,10 +92,17 @@ input {
     justify-content: center;
     align-items: center;
     background-color: #273549;
-    width: 211px;
+    width: 170px;
     height: 39px;
     border-radius: 6px;
     color: #55F991;
     font-size: 16px;
     font-weight: 300;
+    overflow: hidden;
+}
+
+.copy-btn {
+    border: none;
+    border-radius: 6px;
+    background-color: #273549;
 }

@@ -106,3 +106,7 @@ input {
     border-radius: 6px;
     background-color: #273549;
 }
+
+.copy-btn:hover {
+    font-size: 105%;
+}
